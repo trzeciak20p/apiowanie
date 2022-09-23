@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#result{
+    margin-top: 30px;
+    border: 1px black solid;
+    border-collapse: collapse;
+    width: 60%;
+}
+#result th{
+    background-color: aqua;
+}
+#result tr:nth-child(2n){
+    background-color: antiquewhite;
+}
+#result tr:nth-child(2n+1){
+    background-color: wheat;
+}
